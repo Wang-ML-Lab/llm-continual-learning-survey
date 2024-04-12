@@ -25,7 +25,7 @@ An ongoing project surveying existing studies on Continual Learning x Large Lang
 
 ### Continual Model Alignment (CMA)
 
-- Alpaca: A Strong, Replicable Instruction-Following Model [[project](https://crfm.stanford.edu/2023/03/13/alpaca.html)]
+- Alpaca: A Strong, Replicable Instruction-Following Model [[project](https://crfm.stanford.edu/2023/03/13/alpaca.html)][[code](https://github.com/tatsu-lab/stanford_alpaca)]
 
 - Self-training Improves Pre-training for Few-shot Learning in Task-oriented Dialog Systems [[paper](https://arxiv.org/pdf/2108.12589.pdf)]
 
