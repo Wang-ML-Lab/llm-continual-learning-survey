@@ -20,6 +20,7 @@ An ongoing project surveying existing studies on Continual Learning x Large Lang
 ### General Continual Fine-Tuning
 
 ### Continual Instruction Tuning (CIT)
+- Fine-tuned Language Models are Continual Learners [[paper](https://arxiv.org/pdf/2205.12393.pdf)]
 
 ### Continual Model Refinement (CMR)
 - Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors [[paper](https://arxiv.org/pdf/2211.11031.pdf)][[code](https://github.com/thartvigsen/grace)]
