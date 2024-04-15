@@ -21,6 +21,14 @@ An ongoing project surveying existing studies on Continual Learning x Large Lang
 
 ### Continual Instruction Tuning (CIT)
 - Fine-tuned Language Models are Continual Learners [[paper](https://arxiv.org/pdf/2205.12393.pdf)]
+- TRACE: A Comprehensive Benchmark for Continual Learning in Large Language Models [[paper](https://arxiv.org/pdf/2310.06762.pdf)[code](https://github.com/BeyonderXX/TRACE)]
+- Large-scale Lifelong Learning of In-context Instructions and How to Tackle It [[paper](https://aclanthology.org/2023.acl-long.703.pdf)]
+- CITB: A Benchmark for Continual Instruction Tuning [[paper](https://arxiv.org/pdf/2310.14510.pdf)]
+- Mitigating Catastrophic Forgetting in Large Language Models with Self-Synthesized Rehearsal [[code](https://arxiv.org/pdf/2403.01244.pdf)]
+- Don't Half-listen: Capturing Key-part Information in Continual Instruction Tuning [[code](https://arxiv.org/pdf/2403.10056.pdf)]
+- ConTinTin: Continual Learning from Task Instructions [[code](https://arxiv.org/pdf/2203.08512.pdf)]
+- Orthogonal Subspace Learning for Language Model Continual Learning [[code](https://arxiv.org/pdf/2310.14152.pdf)]
+- SAPT: A Shared Attention Framework for Parameter-Efficient Continual Learning of Large Language Models [[code](https://arxiv.org/pdf/2401.08295.pdf)]
 
 ### Continual Model Refinement (CMR)
 - Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors [[paper](https://arxiv.org/pdf/2211.11031.pdf)][[code](https://github.com/thartvigsen/grace)]
