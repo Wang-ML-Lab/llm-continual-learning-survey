@@ -76,6 +76,17 @@ An ongoing project surveying existing studies on Continual Learning x Large Lang
 ## Continual Fine-Tuning of LLMs (CFT)
 
 ### General Continual Fine-Tuning
+- Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning (NeurIPS 2021) [[paper](https://arxiv.org/abs/2112.02706)][[code](https://github.com/ZixuanKe/PyContinual)]
+- Can BERT Refrain from Forgetting on Sequential Tasks? A Probing Study (ICLR 2023) [[paper](https://arxiv.org/abs/2303.01081)][[code](https://github.com/kobayashikanna01/plms_are_lifelong_learners)]
+- CIRCLE: Continual Repair across Programming Languages (ISSTA 2022) [[paper](https://arxiv.org/abs/2205.10956)]
+- ConPET: Continual Parameter-Efficient Tuning for Large Language Models [[paper](https://arxiv.org/abs/2309.14763)][[code](https://github.com/Raincleared-Song/ConPET)]
+- Enhancing Continual Learning with Global Prototypes: Counteracting Negative Representation Drift [[paper](https://arxiv.org/abs/2205.12186)]
+- Investigating Forgetting in Pre-Trained Representations Through Continual Learning [[paper](https://arxiv.org/abs/2305.05968)]
+- Learn or Recall? Revisiting Incremental Learning with Pre-trained Language Models [[paper](https://arxiv.org/abs/2312.07887)][[code](https://github.com/zzz47zzz/pretrained-lm-for-incremental-learning)]
+- LFPT5: A Unified Framework for Lifelong Few-shot Language Learning Based on Prompt Tuning of T5 (ICLR 2022) [[paper](https://arxiv.org/abs/2110.07298)][[code](https://github.com/qcwthu/Lifelong-Fewshot-Language-Learning)]
+- On the Usage of Continual Learning for Out-of-Distribution Generalization in Pre-trained Language Models of Code [[paper](https://arxiv.org/abs/2305.04106)]
+- Overcoming Catastrophic Forgetting in Massively Multilingual Continual Learning (ACL 2023 Findings) [[paper](https://arxiv.org/abs/2305.16252)]
+- Parameterizing Context: Unleashing the Power of Parameter-Efficient Fine-Tuning and In-Context Tuning for Continual Table Semantic Parsing (NeurIPS 2023) [[paper](https://arxiv.org/abs/2310.04801)][[code](https://github.com/KSESEU/C3)]
 
 ### Continual Instruction Tuning (CIT)
 - Fine-tuned Language Models are Continual Learners [[paper](https://arxiv.org/pdf/2205.12393.pdf)]
