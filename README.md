@@ -29,7 +29,49 @@ An ongoing project surveying existing studies on Continual Learning x Large Lang
 
 
 ## Domain-Adaptive Pre-Training of LLMs (DAP)
+### Legal Domain
+- SaulLM-7B: A pioneering Large Language Model for Law [[paper](https://arxiv.org/abs/2403.03883)][[huggingface](https://huggingface.co/papers/2403.03883)]
+- Lawyer LLaMA Technical Report [[paper](https://arxiv.org/abs/2305.15062)]
 
+### Medical Domain
+- BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine [[paper](https://arxiv.org/abs/2308.09442)][[code](https://github.com/PharMolix/OpenBioMed)]
+- Continuous Training and Fine-tuning for Domain-Specific Language Models in Medical Question Answering [[paper](https://arxiv.org/abs/2311.00204)]
+- PMC-LLaMA: Towards Building Open-source Language Models for Medicine [[paper](https://arxiv.org/abs/2304.14454)][[code](https://github.com/chaoyi-wu/PMC-LLaMA)]
+- AF Adapter: Continual Pretraining for Building Chinese Biomedical Language Model [[paper](https://arxiv.org/abs/2211.11363)]
+- Continual Domain-Tuning for Pretrained Language Models [[paper](https://arxiv.org/abs/2004.02288)]
+- HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs [[paper](https://arxiv.org/abs/2311.09774)][[code](https://github.com/FreedomIntelligence/HuatuoGPT-II)]
+
+### Financial Domain
+- BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark [[paper](https://arxiv.org/abs/2302.09432)][[code](https://github.com/ssymmetry/BBT-FinCUGE-Applications)]
+- CFGPT: Chinese Financial Assistant with Large Language Model [[paper](https://arxiv.org/abs/2309.10654)][[code](https://github.com/TongjiFinLab/CFGPT)]
+- Efficient Continual Pre-training for Building Domain Specific Large Language Models [[paper](https://arxiv.org/abs/2311.08545)]
+- WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine [[paper](https://arxiv.org/abs/2308.05361)][[code](https://github.com/ant-research/fin_domain_llm)][[huggingface](https://huggingface.co/weaverbirdllm)][[demo](https://www.youtube.com/watch?v=yofgeqnlrMc)]
+- XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters [[paper](https://arxiv.org/abs/2305.12002)][[huggingface](https://huggingface.co/xyz-nlp/XuanYuan2.0)]
+
+### Scientific Domain
+- AstroLLaMA: Towards Specialized Foundation Models in Astronomy [[paper](https://arxiv.org/abs/2309.06126)]
+- OceanGPT: A Large Language Model for Ocean Science Tasks [[paper](https://arxiv.org/abs/2310.02031)][[code](https://github.com/zjunlp/KnowLM)]
+- K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization [[paper](https://arxiv.org/abs/2306.05064)][[code](https://github.com/davendw49/k2)][[huggingface](https://huggingface.co/daven3/k2-v1)]
+- MarineGPT: Unlocking Secrets of "Ocean" to the Public [[paper](https://arxiv.org/abs/2310.13596)][[code](https://github.com/hkust-vgd/MarineGPT)]
+- GeoGalactica: A Scientific Large Language Model in Geoscience [[paper](https://arxiv.org/abs/2401.00434)][[code](https://github.com/geobrain-ai/geogalactica)][[huggingface](https://huggingface.co/papers/2401.00434)]
+- Llemma: An Open Language Model For Mathematics [[paper](https://arxiv.org/abs/2310.10631)][[code](https://github.com/EleutherAI/math-lm)][[huggingface](https://huggingface.co/EleutherAI/llemma_34b)]
+- PLLaMa: An Open-source Large Language Model for Plant Science [[paper](https://arxiv.org/abs/2401.01600)][[code](https://github.com/Xianjun-Yang/PLLaMa)][[huggingface](https://huggingface.co/papers/2401.01600)]
+
+### Code Domain
+- CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis [[paper](https://arxiv.org/abs/2203.13474)][[code](https://github.com/salesforce/CodeGen)][[huggingface](https://huggingface.co/models?search=salesforce+codegen)]
+- Code Needs Comments: Enhancing Code LLMs with Comment Augmentation [[code](https://arxiv.org/abs/2402.13013)]
+- StarCoder: may the source be with you! [[ppaer](https://arxiv.org/abs/2305.06161)][[code](https://github.com/bigcode-project/starcoder)]
+- DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence [[paper](https://arxiv.org/abs/2401.14196)][[code](https://github.com/deepseek-ai/DeepSeek-Coder)][[huggingface](https://huggingface.co/deepseek-ai)]
+- IRCoder: Intermediate Representations Make Language Models Robust Multilingual Code Generators [[paper](https://arxiv.org/abs/2403.03894)][[code](https://github.com/UKPLab/arxiv2024-ircoder)]
+- Code Llama: Open Foundation Models for Code [[paper](https://arxiv.org/abs/2308.12950)][[code]( https://github.com/facebookresearch/codellama)]
+
+### Other Domains
+- LLaMA Pro: Progressive LLaMA with Block Expansion [[paper](https://arxiv.org/abs/2401.02415)][[code](https://github.com/TencentARC/LLaMA-Pro)][[huggingface](https://huggingface.co/TencentARC/LLaMA-Pro-8B)]
+- ECONET: Effective Continual Pretraining of Language Models for Event Temporal Reasoning [[paper](https://arxiv.org/abs/2012.15283)][[code](https://github.com/PlusLabNLP/ECONET)]
+- Pre-training Text-to-Text Transformers for Concept-centric Common Sense [[paper](https://arxiv.org/abs/2011.07956)][[code](https://github.com/INK-USC/CALM/)][[project](https://inklab.usc.edu/calm-project/)]
+- Don't Stop Pretraining: Adapt Language Models to Domains and Tasks (ACL 2020) [[paper](https://arxiv.org/abs/2004.10964)][[code](https://github.com/allenai/dont-stop-pretraining)]
+- EcomGPT-CT: Continual Pre-training of E-commerce Large Language Models with Semi-structured Data [[paper](https://arxiv.org/abs/2312.15696)]
+- Adapting Large Language Models via Reading Comprehension (ICLR 2024) [[paper](https://arxiv.org/abs/2309.09530)][[code](https://github.com/microsoft/LMOps)]
 
 ## Continual Fine-Tuning of LLMs (CFT)
 
