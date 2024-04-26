@@ -1,5 +1,21 @@
-# A Survey on Continual Learning in the Era of Large Language Models
-An ongoing project surveying existing studies on Continual Learning x Large Language Models.
+# Continual Learning of Large Language Models: A Comprehensive Survey
+[[Paper](https://arxiv.org/abs/2404.16789)] An ongoing project surveying existing studies on Continual Learning of Large Language Models.
+
+<p align="center">
+<img src="fig/overview.png" alt="" data-canonical-src="fig/overview.png" width="100%"/>
+</p>
+
+If you find our survey or this collection of papers useful, please consider citing our work by
+```
+@misc{shi2024continual,
+      title={Continual Learning of Large Language Models: A Comprehensive Survey}, 
+      author={Haizhou Shi and Zihao Xu and Hengyi Wang and Weiyi Qin and Wenyuan Wang and Yibin Wang and Hao Wang},
+      year={2024},
+      eprint={2404.16789},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 ## Relevant Survey Papers
 - A Comprehensive Survey of Continual Learning: Theory, Method and Application (TPAMI 2024) [[paper](https://arxiv.org/abs/2302.00487)]
