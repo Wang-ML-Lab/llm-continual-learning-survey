@@ -1,5 +1,5 @@
 # Continual Learning of Large Language Models: A Comprehensive Survey
-[[Paper](https://arxiv.org/abs/2404.16789)] An ongoing project surveying existing studies on Continual Learning of Large Language Models.
+This is an updating survey for Continual Learning of Large Language Models (CL-LLMs), an constantly updated and extended version for the manuscript "[Continual Learning of Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2404.16789)".
 
 <p align="center">
 <img src="fig/overview.png" alt="" data-canonical-src="fig/overview.png" width="100%"/>
