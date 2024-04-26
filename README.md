@@ -105,7 +105,7 @@ If you find our survey or this collection of papers useful, please consider citi
 - Parameterizing Context: Unleashing the Power of Parameter-Efficient Fine-Tuning and In-Context Tuning for Continual Table Semantic Parsing (NeurIPS 2023) [[paper](https://arxiv.org/abs/2310.04801)][[code](https://github.com/KSESEU/C3)]
 
 ### Continual Instruction Tuning (CIT)
-- Fine-tuned Language Models are Continual Learners [[paper](https://arxiv.org/pdf/2205.12393.pdf)]
+- Fine-tuned Language Models are Continual Learners [[paper](https://arxiv.org/pdf/2205.12393.pdf)][[code](https://github.com/ThomasScialom/T0_continual_learning)]
 - TRACE: A Comprehensive Benchmark for Continual Learning in Large Language Models [[paper](https://arxiv.org/pdf/2310.06762.pdf)][[code](https://github.com/BeyonderXX/TRACE)]
 - Large-scale Lifelong Learning of In-context Instructions and How to Tackle It [[paper](https://aclanthology.org/2023.acl-long.703.pdf)]
 - CITB: A Benchmark for Continual Instruction Tuning [[paper](https://arxiv.org/pdf/2310.14510.pdf)][[code](https://github.com/hyintell/CITB)]
