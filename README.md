@@ -5,18 +5,6 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 <img src="fig/overview.png" alt="" data-canonical-src="fig/overview.png" width="100%"/>
 </p>
 
-If you find our survey or this collection of papers useful, please consider citing our work by
-```
-@misc{shi2024continual,
-      title={Continual Learning of Large Language Models: A Comprehensive Survey}, 
-      author={Haizhou Shi and Zihao Xu and Hengyi Wang and Weiyi Qin and Wenyuan Wang and Yibin Wang and Hao Wang},
-      year={2024},
-      eprint={2404.16789},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
-
 ## Relevant Survey Papers
 - A Comprehensive Survey of Continual Learning: Theory, Method and Application (TPAMI 2024) [[paper](https://arxiv.org/abs/2302.00487)]
 - Continual Learning for Large Language Models: A Survey [[paper](https://arxiv.org/abs/2402.01364)]
@@ -142,3 +130,16 @@ If you find our survey or this collection of papers useful, please consider citi
 - CoIN: A Benchmark of Continual Instruction tuNing for Multimodel Large Language Model [[paper](https://arxiv.org/abs/2403.08350)] [[code](https://github.com/zackschen/coin)]
 - Model Tailor: Mitigating Catastrophic Forgetting in Multi-modal Large Language Models [[paper](https://arxiv.org/abs/2402.12048)]
 - Reconstruct before Query: Continual Missing Modality Learning with Decomposed Prompt Collaboration [[paper](https://arxiv.org/abs/2403.11373)] [[code](https://github.com/Tree-Shu-Zhao/RebQ.pytorch)]
+
+## Reference
+If you find our survey or this collection of papers useful, please consider citing our work by
+```bib
+@misc{shi2024continual,
+      title={Continual Learning of Large Language Models: A Comprehensive Survey}, 
+      author={Haizhou Shi and Zihao Xu and Hengyi Wang and Weiyi Qin and Wenyuan Wang and Yibin Wang and Hao Wang},
+      year={2024},
+      eprint={2404.16789},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
