@@ -1,5 +1,5 @@
 # Continual Learning of Large Language Models: A Comprehensive Survey
-This is an updating survey for Continual Learning of Large Language Models (CL-LLMs), an constantly updated and extended version for the manuscript "[Continual Learning of Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2404.16789)".
+This is an updating survey for Continual Learning of Large Language Models (CL-LLMs), a constantly updated and extended version for the manuscript "[Continual Learning of Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2404.16789)".
 
 <p align="center">
 <img src="fig/overview.png" alt="" data-canonical-src="fig/overview.png" width="100%"/>
@@ -10,6 +10,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - 04/2024: initial release.
 
 ## Relevant Survey Papers
+- 🔥 Recent Advances of Foundation Language Models-based Continual Learning: A Survey [[paper](https://arxiv.org/pdf/2405.18653)]
 - A Comprehensive Survey of Continual Learning: Theory, Method and Application (TPAMI 2024) [[paper](https://arxiv.org/abs/2302.00487)]
 - Continual Learning for Large Language Models: A Survey [[paper](https://arxiv.org/abs/2402.01364)]
 - Continual Lifelong Learning in Natural Language Processing: A Survey (COLING 2020) [[paper](https://arxiv.org/abs/2012.09823)]
