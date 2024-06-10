@@ -23,7 +23,6 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - 🔥 Simple and Scalable Strategies to Continually Pre-train Large Language Models [[paper](https://arxiv.org/abs/2403.08763)]
 - 🔥 Investigating Continual Pretraining in Large Language Models: Insights and Implications [[paper](https://arxiv.org/abs/2402.17400)]
 - 🔥 Take the Bull by the Horns: Hard Sample-Reweighted Continual Training Improves LLM Generalization [[paper](https://arxiv.org/abs/2402.14270)][[code](https://github.com/VITA-Group/HardFocusTraining)]
-- 🔥 Efficient Stagewise Pretraining via Progressive Subnetworks [[paper](https://arxiv.org/abs/2402.05913)]
 - TimeLMs: Diachronic Language Models from Twitter (ACL 2022, Demo Track) [[paper](https://arxiv.org/abs/2202.03829)][[code](https://github.com/cardiffnlp/timelms)]
 - Continual Pre-Training of Large Language Models: How to (re)warm your model? [[paper](https://arxiv.org/abs/2308.04014)]
 - Continual Learning Under Language Shift [[paper](https://arxiv.org/abs/2311.01200)]
@@ -93,7 +92,6 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - 🔥 Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities [[paper](https://arxiv.org/abs/2404.17790)]
 - 🔥 Sailor: Open Language Models for South-East Asia [[paper](https://arxiv.org/abs/2404.03608)][[code](https://github.com/sail-sg/sailor-llm)]
 - 🔥 Aurora-M: The First Open Source Multilingual Language Model Red-teamed according to the U.S. Executive Order [[paper](https://arxiv.org/abs/2404.00399)][[huggingface](https://huggingface.co/collections/aurora-m/aurora-m-models-65fdfdff62471e09812f5407)]
-- 🔥 Vi-Mistral-X: Building a Vietnamese Language Model with Advanced Continual Pre-training [[paper](https://arxiv.org/abs/2403.15470)]
 
 ### Other Domains
 - LLaMA Pro: Progressive LLaMA with Block Expansion [[paper](https://arxiv.org/abs/2401.02415)][[code](https://github.com/TencentARC/LLaMA-Pro)][[huggingface](https://huggingface.co/TencentARC/LLaMA-Pro-8B)]
