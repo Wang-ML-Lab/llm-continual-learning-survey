@@ -1,14 +1,37 @@
 # Continual Learning of Large Language Models: A Comprehensive Survey
 This is an updating survey for Continual Learning of Large Language Models (CL-LLMs), a constantly updated and extended version for the manuscript "[Continual Learning of Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2404.16789)".
 
+***Welcome to contribute to this survey by submitting a pull request or opening an issue!***
+
 <p align="center">
 <img src="fig/overview.png" alt="" data-canonical-src="fig/overview.png" width="100%"/>
 </p>
 
 ### Update History
-- ***[06/2024] (⭐) add new papers released between 05/2024 - 06/2024.***
+- **[07/2024] the [updated version of the paper](https://arxiv.org/abs/2404.16789) has been released on arXiv.**
+- **[06/2024] (⭐) add new papers released between 05/2024 - 06/2024.**
 - [05/2024] (🔥) add new papers released between 02/2024 - 05/2024.
 - [04/2024] initial release.
+
+### Table of Contents
+* [Relevant Survey Papers](#relevant-survey-papers)
+* [Continual Pre-Training of LLMs (CPT)](#continual-pre-training-of-llms-cpt)
+* [Domain-Adaptive Pre-Training of LLMs (DAP)](#domain-adaptive-pre-training-of-llms-dap)
+  * [General Domains](#for-general-domains)
+  * [Legal Domain](#legal-domain)
+  * [Medical Domain](#medical-domain)
+  * [Financial Domain](#financial-domain)
+  * [Scientific Domain](#scientific-domain)
+  * [Code Domain](#code-domain)
+  * [Language Domain](#language-domain)
+  * [Other Domains](#other-domains)
+* [Continual Fine-Tuning of LLMs (CFT)](#continual-fine-tuning-of-llms-cft)
+  * [General Continual Fine-Tuning](#general-continual-fine-tuning)
+  * [Continual Instruction Tuning (CIT)](#continual-instruction-tuning-cit)
+  * [Continual Model Refinement (CMR)](#continual-model-refinement-cmr)
+  * [Continual Model Alignment (CMA)](#continual-model-alignment-cma)
+  * [Continual Multimodal LLMs (CMLLMs)](#continual-multimodal-llms-cmllms)
+* [Continual LLMs Miscs](#continual-llms-miscs)
 
 ## Relevant Survey Papers
 - ⭐ Towards Lifelong Learning of Large Language Models: A Survey [[paper](https://arxiv.org/abs/2406.06391)][[code](https://github.com/qianlima-lab/awesome-lifelong-learning-methods-for-llm)]
@@ -48,7 +71,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 
 ## Domain-Adaptive Pre-Training of LLMs (DAP)
-### 🔥 For General Domains
+### For General Domains
 - ⭐ Instruction Pre-Training: Language Models are Supervised Multitask Learners [[paper](https://arxiv.org/abs/2406.14491)][[code](https://github.com/microsoft/LMOps)][[huggingface](https://huggingface.co/instruction-pretrain)]
 - ⭐ D-CPT Law: Domain-specific Continual Pre-Training Scaling Law for Large Language Models [[paper](https://arxiv.org/abs/2406.01375)]
 - 🔥 BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models [[paper](https://arxiv.org/abs/2403.18365)]
@@ -98,7 +121,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - IRCoder: Intermediate Representations Make Language Models Robust Multilingual Code Generators [[paper](https://arxiv.org/abs/2403.03894)][[code](https://github.com/UKPLab/arxiv2024-ircoder)]
 - Code Llama: Open Foundation Models for Code [[paper](https://arxiv.org/abs/2308.12950)][[code]( https://github.com/facebookresearch/codellama)]
 
-### 🔥 Language Domain
+### Language Domain
 - ⭐ InstructionCP: A fast approach to transfer Large Language Models into target language [[paper](https://arxiv.org/abs/2405.20175)]
 - 🔥 Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities [[paper](https://arxiv.org/abs/2404.17790)]
 - 🔥 Sailor: Open Language Models for South-East Asia [[paper](https://arxiv.org/abs/2404.03608)][[code](https://github.com/sail-sg/sailor-llm)]
@@ -172,7 +195,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - Model Tailor: Mitigating Catastrophic Forgetting in Multi-modal Large Language Models [[paper](https://arxiv.org/abs/2402.12048)]
 - Reconstruct before Query: Continual Missing Modality Learning with Decomposed Prompt Collaboration [[paper](https://arxiv.org/abs/2403.11373)] [[code](https://github.com/Tree-Shu-Zhao/RebQ.pytorch)]
 
-## 🔥 Continual LLMs Miscs
+## Continual LLMs Miscs
 - 🔥 Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance [[paper](https://arxiv.org/abs/2403.16952)][[code](https://github.com/yegcjs/mixinglaws)]
 - 🔥 AdapterSwap: Continuous Training of LLMs with Data Removal and Access-Control Guarantees [[paper](https://arxiv.org/abs/2404.08417)]
 - 🔥 COPAL: Continual Pruning in Large Language Generative Models [[paper](https://arxiv.org/abs/2405.02347)]
@@ -182,18 +205,21 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 ## Reference
 If you find our survey or this collection of papers useful, please consider citing our work by
 ```bib
-@misc{shi2024continual,
-  title={Continual Learning of Large Language Models: A Comprehensive Survey},
-  author={Haizhou Shi and
-          Zihao Xu and
-          Hengyi Wang and
-          Weiyi Qin and
-          Wenyuan Wang and
-          Yibin Wang and
-          Hao Wang},
-  year={2024},
-  eprint={2404.16789},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG}
+@misc{shi2024continuallearninglargelanguage,
+      title={Continual Learning of Large Language Models: A Comprehensive Survey}, 
+      author={Haizhou Shi and 
+              Zihao Xu and 
+              Hengyi Wang and 
+              Weiyi Qin and 
+              Wenyuan Wang and 
+              Yibin Wang and 
+              Zifeng Wang and 
+              Sayna Ebrahimi and 
+              Hao Wang},
+      year={2024},
+      eprint={2404.16789},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2404.16789}, 
 }
 ```
