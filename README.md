@@ -8,9 +8,10 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 </p>
 
 ### Update History
+- **[07/2024] (🔥) new papers: 06/2024 - 07/2024.**
 - **[07/2024] the [updated version of the paper](https://arxiv.org/abs/2404.16789) has been released on arXiv.**
-- **[06/2024] (⭐) add new papers released between 05/2024 - 06/2024.**
-- [05/2024] (🔥) add new papers released between 02/2024 - 05/2024.
+- [06/2024] (⭐) new papers: 05/2024 - 06/2024.
+- [05/2024] new papers: 02/2024 - 05/2024.
 - [04/2024] initial release.
 
 ### Table of Contents
@@ -35,7 +36,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 ## Relevant Survey Papers
 - ⭐ Towards Lifelong Learning of Large Language Models: A Survey [[paper](https://arxiv.org/abs/2406.06391)][[code](https://github.com/qianlima-lab/awesome-lifelong-learning-methods-for-llm)]
-- 🔥 Recent Advances of Foundation Language Models-based Continual Learning: A Survey [[paper](https://arxiv.org/pdf/2405.18653)]
+- Recent Advances of Foundation Language Models-based Continual Learning: A Survey [[paper](https://arxiv.org/pdf/2405.18653)]
 - A Comprehensive Survey of Continual Learning: Theory, Method and Application (TPAMI 2024) [[paper](https://arxiv.org/abs/2302.00487)]
 - Continual Learning for Large Language Models: A Survey [[paper](https://arxiv.org/abs/2402.01364)]
 - Continual Lifelong Learning in Natural Language Processing: A Survey (COLING 2020) [[paper](https://arxiv.org/abs/2012.09823)]
@@ -44,14 +45,20 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 
 ## Continual Pre-Training of LLMs (CPT)
+- 🔥 Bilingual Adaptation of Monolingual Foundation Models
+ [[paper](https://arxiv.org/abs/2407.12869)]
+- 🔥 Mix-CPT: A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment [[paper](https://arxiv.org/abs/2407.10804)]
+- 🔥 Breaking Language Barriers: Cross-Lingual Continual Pre-Training at Scale [[paper](https://arxiv.org/abs/2407.02118)]
+- 🔥 LLaMA-MoE: Building Mixture-of-Experts from LLaMA with Continual Pre-training [[paper](https://arxiv.org/abs/2406.16554)][[code](https://github.com/pjlab-sys4nlp/llama-moe)]
+- 🔥 Efficient Continual Pre-training by Mitigating the Stability Gap [[paper](https://arxiv.org/abs/2406.14833)][[huggingface](https://huggingface.co/YiDuo1999/Llama-3-Physician-8B-Instruct.)]
 - ⭐ How Do Large Language Models Acquire Factual Knowledge During Pretraining? [[paper](https://arxiv.org/abs/2406.11813)]
 - ⭐ DHA: Learning Decoupled-Head Attention from Transformer Checkpoints via Adaptive Heads Fusion [[paper](https://arxiv.org/abs/2406.06567)]
 - ⭐ MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning [[paper](https://arxiv.org/abs/2405.12130)][[code](https://github.com/kongds/MoRA)]
-- 🔥 Large Language Model Can Continue Evolving From Mistakes [[paper](https://arxiv.org/abs/2404.08707)]
-- 🔥 Rho-1: Not All Tokens Are What You Need [[paper](https://arxiv.org/abs/2404.07965)][[code](https://github.com/microsoft/rho)]
-- 🔥 Simple and Scalable Strategies to Continually Pre-train Large Language Models [[paper](https://arxiv.org/abs/2403.08763)]
-- 🔥 Investigating Continual Pretraining in Large Language Models: Insights and Implications [[paper](https://arxiv.org/abs/2402.17400)]
-- 🔥 Take the Bull by the Horns: Hard Sample-Reweighted Continual Training Improves LLM Generalization [[paper](https://arxiv.org/abs/2402.14270)][[code](https://github.com/VITA-Group/HardFocusTraining)]
+- Large Language Model Can Continue Evolving From Mistakes [[paper](https://arxiv.org/abs/2404.08707)]
+- Rho-1: Not All Tokens Are What You Need [[paper](https://arxiv.org/abs/2404.07965)][[code](https://github.com/microsoft/rho)]
+- Simple and Scalable Strategies to Continually Pre-train Large Language Models [[paper](https://arxiv.org/abs/2403.08763)]
+- Investigating Continual Pretraining in Large Language Models: Insights and Implications [[paper](https://arxiv.org/abs/2402.17400)]
+- Take the Bull by the Horns: Hard Sample-Reweighted Continual Training Improves LLM Generalization [[paper](https://arxiv.org/abs/2402.14270)][[code](https://github.com/VITA-Group/HardFocusTraining)]
 - TimeLMs: Diachronic Language Models from Twitter (ACL 2022, Demo Track) [[paper](https://arxiv.org/abs/2202.03829)][[code](https://github.com/cardiffnlp/timelms)]
 - Continual Pre-Training of Large Language Models: How to (re)warm your model? [[paper](https://arxiv.org/abs/2308.04014)]
 - Continual Learning Under Language Shift [[paper](https://arxiv.org/abs/2311.01200)]
@@ -72,10 +79,12 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 ## Domain-Adaptive Pre-Training of LLMs (DAP)
 ### For General Domains
+- 🔥 [[paper] CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models (https://arxiv.org/abs/2407.17467)]
+- 🔥 Task Oriented In-Domain Data Augmentation [[paper](https://arxiv.org/abs/2406.16694)]
 - ⭐ Instruction Pre-Training: Language Models are Supervised Multitask Learners [[paper](https://arxiv.org/abs/2406.14491)][[code](https://github.com/microsoft/LMOps)][[huggingface](https://huggingface.co/instruction-pretrain)]
 - ⭐ D-CPT Law: Domain-specific Continual Pre-Training Scaling Law for Large Language Models [[paper](https://arxiv.org/abs/2406.01375)]
-- 🔥 BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models [[paper](https://arxiv.org/abs/2403.18365)]
-- 🔥 Tag-LLM: Repurposing General-Purpose LLMs for Specialized Domains [[paper](https://arxiv.org/abs/2402.05140)]
+- BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models [[paper](https://arxiv.org/abs/2403.18365)]
+- Tag-LLM: Repurposing General-Purpose LLMs for Specialized Domains [[paper](https://arxiv.org/abs/2402.05140)]
 - Adapting Large Language Models via Reading Comprehension (ICLR 2024) [[paper](https://arxiv.org/abs/2309.09530)][[code](https://github.com/microsoft/LMOps)]
 
 ### Legal Domain
@@ -84,8 +93,8 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 ### Medical Domain
 - ⭐ PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications [[paper](https://arxiv.org/abs/2405.19266)]
-- 🔥 Hippocrates: An Open-Source Framework for Advancing Large Language Models in Healthcare [[paper](https://arxiv.org/abs/2404.16621)][[project](https://cyberiada.github.io/Hippocrates/)][[huggingface](https://huggingface.co/emrecanacikgoz)]
-- 🔥 Me LLaMA: Foundation Large Language Models for Medical Applications [[paper](https://arxiv.org/abs/2402.12749)][[code](https://github.com/BIDS-Xu-Lab/Me-LLaMA)]
+- Hippocrates: An Open-Source Framework for Advancing Large Language Models in Healthcare [[paper](https://arxiv.org/abs/2404.16621)][[project](https://cyberiada.github.io/Hippocrates/)][[huggingface](https://huggingface.co/emrecanacikgoz)]
+- Me LLaMA: Foundation Large Language Models for Medical Applications [[paper](https://arxiv.org/abs/2402.12749)][[code](https://github.com/BIDS-Xu-Lab/Me-LLaMA)]
 - BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine [[paper](https://arxiv.org/abs/2308.09442)][[code](https://github.com/PharMolix/OpenBioMed)]
 - Continuous Training and Fine-tuning for Domain-Specific Language Models in Medical Question Answering [[paper](https://arxiv.org/abs/2311.00204)]
 - PMC-LLaMA: Towards Building Open-source Language Models for Medicine [[paper](https://arxiv.org/abs/2304.14454)][[code](https://github.com/chaoyi-wu/PMC-LLaMA)]
@@ -94,8 +103,9 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs [[paper](https://arxiv.org/abs/2311.09774)][[code](https://github.com/FreedomIntelligence/HuatuoGPT-II)]
 
 ### Financial Domain
-- 🔥 Construction of Domain-specified Japanese Large Language Model for Finance through Continual Pre-training [[paper](https://arxiv.org/abs/2404.10555)]
-- 🔥 Pretraining and Updating Language- and Domain-specific Large Language Model: A Case Study in Japanese Business Domain [[paper](https://arxiv.org/abs/2404.08262)][[huggingface](https://huggingface.co/stockmark)]
+- 🔥 Domain Adaptation of Llama3-70B-Instruct through Continual Pre-Training and Model Merging: A Comprehensive Evaluation [[paper](https://arxiv.org/abs/2406.14971)][[huggingface](https://huggingface.co/arcee-ai/Llama-3-SEC-Base)]
+- Construction of Domain-specified Japanese Large Language Model for Finance through Continual Pre-training [[paper](https://arxiv.org/abs/2404.10555)]
+- Pretraining and Updating Language- and Domain-specific Large Language Model: A Case Study in Japanese Business Domain [[paper](https://arxiv.org/abs/2404.08262)][[huggingface](https://huggingface.co/stockmark)]
 - BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark [[paper](https://arxiv.org/abs/2302.09432)][[code](https://github.com/ssymmetry/BBT-FinCUGE-Applications)]
 - CFGPT: Chinese Financial Assistant with Large Language Model [[paper](https://arxiv.org/abs/2309.10654)][[code](https://github.com/TongjiFinLab/CFGPT)]
 - Efficient Continual Pre-training for Building Domain Specific Large Language Models [[paper](https://arxiv.org/abs/2311.08545)]
@@ -104,7 +114,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 ### Scientific Domain
 - ⭐ PRESTO: Progressive Pretraining Enhances Synthetic Chemistry Outcomes [[paper](https://arxiv.org/abs/2406.13193)][[code](https://github.com/IDEA-XL/PRESTO)]
-- 🔥 ClimateGPT: Towards AI Synthesizing Interdisciplinary Research on Climate Change [[paper](https://arxiv.org/abs/2401.09646)][[hugginface](https://huggingface.co/collections/eci-io/climategpt-65a83cd8a92d5908dfffc849)]
+- ClimateGPT: Towards AI Synthesizing Interdisciplinary Research on Climate Change [[paper](https://arxiv.org/abs/2401.09646)][[hugginface](https://huggingface.co/collections/eci-io/climategpt-65a83cd8a92d5908dfffc849)]
 - AstroLLaMA: Towards Specialized Foundation Models in Astronomy [[paper](https://arxiv.org/abs/2309.06126)]
 - OceanGPT: A Large Language Model for Ocean Science Tasks [[paper](https://arxiv.org/abs/2310.02031)][[code](https://github.com/zjunlp/KnowLM)]
 - K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization [[paper](https://arxiv.org/abs/2306.05064)][[code](https://github.com/davendw49/k2)][[huggingface](https://huggingface.co/daven3/k2-v1)]
@@ -122,10 +132,14 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - Code Llama: Open Foundation Models for Code [[paper](https://arxiv.org/abs/2308.12950)][[code]( https://github.com/facebookresearch/codellama)]
 
 ### Language Domain
+- 🔥 Unlocking the Potential of Model Merging for Low-Resource Languages
+ [[paper](https://arxiv.org/abs/2407.03994)]
+- 🔥 Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data [[paper](https://arxiv.org/abs/2407.03145)]
+- 🔥 BAMBINO-LM: (Bilingual-)Human-Inspired Continual Pretraining of BabyLM [[paper](https://arxiv.org/abs/2406.11418)]
 - ⭐ InstructionCP: A fast approach to transfer Large Language Models into target language [[paper](https://arxiv.org/abs/2405.20175)]
-- 🔥 Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities [[paper](https://arxiv.org/abs/2404.17790)]
-- 🔥 Sailor: Open Language Models for South-East Asia [[paper](https://arxiv.org/abs/2404.03608)][[code](https://github.com/sail-sg/sailor-llm)]
-- 🔥 Aurora-M: The First Open Source Multilingual Language Model Red-teamed according to the U.S. Executive Order [[paper](https://arxiv.org/abs/2404.00399)][[huggingface](https://huggingface.co/collections/aurora-m/aurora-m-models-65fdfdff62471e09812f5407)]
+- Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities [[paper](https://arxiv.org/abs/2404.17790)]
+- Sailor: Open Language Models for South-East Asia [[paper](https://arxiv.org/abs/2404.03608)][[code](https://github.com/sail-sg/sailor-llm)]
+- Aurora-M: The First Open Source Multilingual Language Model Red-teamed according to the U.S. Executive Order [[paper](https://arxiv.org/abs/2404.00399)][[huggingface](https://huggingface.co/collections/aurora-m/aurora-m-models-65fdfdff62471e09812f5407)]
 
 ### Other Domains
 - LLaMA Pro: Progressive LLaMA with Block Expansion [[paper](https://arxiv.org/abs/2401.02415)][[code](https://github.com/TencentARC/LLaMA-Pro)][[huggingface](https://huggingface.co/TencentARC/LLaMA-Pro-8B)]
@@ -137,6 +151,8 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 ## Continual Fine-Tuning of LLMs (CFT)
 
 ### General Continual Fine-Tuning
+- 🔥 Learn it or Leave it: Module Composition and Pruning for Continual Learning [[paper](https://arxiv.org/abs/2406.18708)]
+- 🔥 Unlocking Continual Learning Abilities in Language Models [[paper](https://arxiv.org/abs/2406.17245)][[code](https://github.com/wenyudu/MIGU)]
 - Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning (NeurIPS 2021) [[paper](https://arxiv.org/abs/2112.02706)][[code](https://github.com/ZixuanKe/PyContinual)]
 - Can BERT Refrain from Forgetting on Sequential Tasks? A Probing Study (ICLR 2023) [[paper](https://arxiv.org/abs/2303.01081)][[code](https://github.com/kobayashikanna01/plms_are_lifelong_learners)]
 - CIRCLE: Continual Repair across Programming Languages (ISSTA 2022) [[paper](https://arxiv.org/abs/2205.10956)]
@@ -162,7 +178,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions [[paper](https://arxiv.org/pdf/2403.11435.pdf)]
 
 ### Continual Model Refinement (CMR)
-- 🔥 WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models [[paper](https://arxiv.org/abs/2405.14768)][[code](https://github.com/zjunlp/EasyEdit)]
+- WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models [[paper](https://arxiv.org/abs/2405.14768)][[code](https://github.com/zjunlp/EasyEdit)]
 - Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors [[paper](https://arxiv.org/pdf/2211.11031.pdf)][[code](https://github.com/thartvigsen/grace)]
 - On Continual Model Refinement in Out-of-Distribution Data Streams [[paper](https://arxiv.org/pdf/2205.02014.pdf)][[code](https://github.com/facebookresearch/cmr)][[project](https://cmr-nlp.github.io/)]
 - Melo: Enhancing model editing with neuron-indexed dynamic lora [[paper](https://arxiv.org/pdf/2312.11795.pdf)][[code](https://github.com/ECNU-ICALK/MELO)]
@@ -171,6 +187,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 
 ### Continual Model Alignment (CMA)
+- 🔥 Mind the Interference: Retaining Pre-trained Knowledge in Parameter Efficient Continual Learning of Vision-Language Models [[paper](https://arxiv.org/abs/2407.05342)]
 - ⭐ Online Merging Optimizers for Boosting Rewards and Mitigating Tax in Alignment [[paper](https://arxiv.org/abs/2405.17931)][[code](https://github.com/QwenLM/online_merging_optimizers)]
 - Alpaca: A Strong, Replicable Instruction-Following Model [[project](https://crfm.stanford.edu/2023/03/13/alpaca.html)] [[code](https://github.com/tatsu-lab/stanford_alpaca)]
 - Self-training Improves Pre-training for Few-shot Learning in Task-oriented Dialog Systems [[paper](https://arxiv.org/pdf/2108.12589.pdf)] [[code](https://github.com/MiFei/ST-ToD)]
@@ -182,11 +199,14 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - Mitigating the Alignment Tax of RLHF [[paper](https://arxiv.org/abs/2309.06256)]
 
 ### Continual Multimodal LLMs (CMLLMs)
+- 🔥 CLIP with Generative Latent Replay: a Strong Baseline for Incremental Learning [[paper](https://arxiv.org/abs/2407.15793)]
+- 🔥 Continually Learn to Map Visual Concepts to Large Language Models in Resource-constrained Environments [[paper](https://arxiv.org/abs/2407.08279)]
+- 🔥 Mind the Interference: Retaining Pre-trained Knowledge in Parameter Efficient Continual Learning of Vision-Language Models [[paper](https://arxiv.org/abs/2407.05342)]
 - ⭐ CLIP model is an Efficient Online Lifelong Learner [[paper](https://arxiv.org/abs/2405.15155)]
-- 🔥 CLAP4CLIP: Continual Learning with Probabilistic Finetuning for Vision-Language Models [[paper](https://arxiv.org/abs/2403.19137)][[code](https://github.com/srvCodes/clap4clip)]
-- 🔥 Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters (CVPR 2024) [[paper](https://arxiv.org/abs/2403.11549)][[code](https://github.com/JiazuoYu/MoE-Adapters4CL)]
-- 🔥 CoLeCLIP: Open-Domain Continual Learning via Joint Task Prompt and Vocabulary Learning [[paper](https://arxiv.org/abs/2403.10245)]
-- 🔥 Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models [[paper](https://arxiv.org/abs/2403.09296)]
+- CLAP4CLIP: Continual Learning with Probabilistic Finetuning for Vision-Language Models [[paper](https://arxiv.org/abs/2403.19137)][[code](https://github.com/srvCodes/clap4clip)]
+- Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters (CVPR 2024) [[paper](https://arxiv.org/abs/2403.11549)][[code](https://github.com/JiazuoYu/MoE-Adapters4CL)]
+- CoLeCLIP: Open-Domain Continual Learning via Joint Task Prompt and Vocabulary Learning [[paper](https://arxiv.org/abs/2403.10245)]
+- Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models [[paper](https://arxiv.org/abs/2403.09296)]
 - Investigating the Catastrophic Forgetting in Multimodal Large Language Models (PMLR 2024) [[paper](https://arxiv.org/abs/2309.10313)]
 - MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models [[paper](https://arxiv.org/abs/2304.10592)] [[code](https://github.com/Vision-CAIR/MiniGPT-4)]
 - Visual Instruction Tuning (NeurIPS 2023, Oral) [[paper](https://arxiv.org/abs/2304.08485)] [[code](https://github.com/haotian-liu/LLaVA)]
@@ -196,10 +216,11 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - Reconstruct before Query: Continual Missing Modality Learning with Decomposed Prompt Collaboration [[paper](https://arxiv.org/abs/2403.11373)] [[code](https://github.com/Tree-Shu-Zhao/RebQ.pytorch)]
 
 ## Continual LLMs Miscs
-- 🔥 Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance [[paper](https://arxiv.org/abs/2403.16952)][[code](https://github.com/yegcjs/mixinglaws)]
-- 🔥 AdapterSwap: Continuous Training of LLMs with Data Removal and Access-Control Guarantees [[paper](https://arxiv.org/abs/2404.08417)]
-- 🔥 COPAL: Continual Pruning in Large Language Generative Models [[paper](https://arxiv.org/abs/2405.02347)]
-- 🔥 HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models [[paper](https://arxiv.org/abs/2405.14831)][[code](https://github.com/OSU-NLP-Group/HippoRAG)]
+- 🔥 How Do Large Language Models Acquire Factual Knowledge During Pretraining? [[paper](https://arxiv.org/abs/2406.11813)]
+- Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance [[paper](https://arxiv.org/abs/2403.16952)][[code](https://github.com/yegcjs/mixinglaws)]
+- AdapterSwap: Continuous Training of LLMs with Data Removal and Access-Control Guarantees [[paper](https://arxiv.org/abs/2404.08417)]
+- COPAL: Continual Pruning in Large Language Generative Models [[paper](https://arxiv.org/abs/2405.02347)]
+- HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models [[paper](https://arxiv.org/abs/2405.14831)][[code](https://github.com/OSU-NLP-Group/HippoRAG)]
 - Reawakening knowledge: Anticipatory recovery from catastrophic interference via structured training [[paper](https://arxiv.org/abs/2403.09613)][[code](https://github.com/Agentic-Learning-AI-Lab/anticipatory-recovery-public)]
 
 ## Reference
