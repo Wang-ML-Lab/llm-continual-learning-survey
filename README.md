@@ -230,21 +230,18 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 ## Reference
 If you find our survey or this collection of papers useful, please consider citing our work by
 ```bib
-@misc{shi2024continuallearninglargelanguage,
-      title={Continual Learning of Large Language Models: A Comprehensive Survey}, 
-      author={Haizhou Shi and 
-              Zihao Xu and 
-              Hengyi Wang and 
-              Weiyi Qin and 
-              Wenyuan Wang and 
-              Yibin Wang and 
-              Zifeng Wang and 
-              Sayna Ebrahimi and 
-              Hao Wang},
-      year={2024},
-      eprint={2404.16789},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2404.16789}, 
+@article{shi2024continual,
+  title={Continual Learning of Large Language Models: A Comprehensive Survey},
+  author={Shi, Haizhou and 
+          Xu, Zihao and 
+          Wang, Hengyi and 
+          Qin, Weiyi and 
+          Wang, Wenyuan and 
+          Wang, Yibin and 
+          Wang, Zifeng and 
+          Ebrahimi, Sayna and 
+          Wang, Hao},
+  journal={arXiv preprint arXiv:2404.16789},
+  year={2024}
 }
 ```
