@@ -134,6 +134,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 ### Language Domain
 - 🔥 Unlocking the Potential of Model Merging for Low-Resource Languages
  [[paper](https://arxiv.org/abs/2407.03994)]
+- 🔥 Mitigating Catastrophic Forgetting in Language Transfer via Model Merging [[paper](https://arxiv.org/abs/2407.08699)]
 - 🔥 Enhancing Translation Accuracy of Large Language Models through Continual Pre-Training on Parallel Data [[paper](https://arxiv.org/abs/2407.03145)]
 - 🔥 BAMBINO-LM: (Bilingual-)Human-Inspired Continual Pretraining of BabyLM [[paper](https://arxiv.org/abs/2406.11418)]
 - ⭐ InstructionCP: A fast approach to transfer Large Language Models into target language [[paper](https://arxiv.org/abs/2405.20175)]
@@ -178,6 +179,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions [[paper](https://arxiv.org/pdf/2403.11435.pdf)]
 
 ### Continual Model Refinement (CMR)
+- 🔥 LEMoE: Advanced Mixture of Experts Adaptor for Lifelong Model Editing of Large Language Models [[paper](https://arxiv.org/abs/2406.20030)]
 - WISE: Rethinking the Knowledge Memory for Lifelong Model Editing of Large Language Models [[paper](https://arxiv.org/abs/2405.14768)][[code](https://github.com/zjunlp/EasyEdit)]
 - Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors [[paper](https://arxiv.org/pdf/2211.11031.pdf)][[code](https://github.com/thartvigsen/grace)]
 - On Continual Model Refinement in Out-of-Distribution Data Streams [[paper](https://arxiv.org/pdf/2205.02014.pdf)][[code](https://github.com/facebookresearch/cmr)][[project](https://cmr-nlp.github.io/)]
@@ -218,6 +220,8 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 ## Continual LLMs Miscs
 - 🔥 How Do Large Language Models Acquire Factual Knowledge During Pretraining? [[paper](https://arxiv.org/abs/2406.11813)]
 - Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance [[paper](https://arxiv.org/abs/2403.16952)][[code](https://github.com/yegcjs/mixinglaws)]
+- 🔥 Evaluating the External and Parametric Knowledge Fusion of Large Language Models [[paper](https://arxiv.org/abs/2405.19010)]
+- 🔥 Demystifying Forgetting in Language Model Fine-Tuning with Statistical Analysis of Example Associations [[paper](https://arxiv.org/abs/2406.14026)]
 - AdapterSwap: Continuous Training of LLMs with Data Removal and Access-Control Guarantees [[paper](https://arxiv.org/abs/2404.08417)]
 - COPAL: Continual Pruning in Large Language Generative Models [[paper](https://arxiv.org/abs/2405.02347)]
 - HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models [[paper](https://arxiv.org/abs/2405.14831)][[code](https://github.com/OSU-NLP-Group/HippoRAG)]
