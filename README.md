@@ -79,7 +79,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 ## Domain-Adaptive Pre-Training of LLMs (DAP)
 ### For General Domains
-- 🔥 [[paper] CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models (https://arxiv.org/abs/2407.17467)]
+- 🔥 CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models [[paper](https://arxiv.org/abs/2407.17467)]
 - 🔥 Task Oriented In-Domain Data Augmentation [[paper](https://arxiv.org/abs/2406.16694)]
 - ⭐ Instruction Pre-Training: Language Models are Supervised Multitask Learners [[paper](https://arxiv.org/abs/2406.14491)][[code](https://github.com/microsoft/LMOps)][[huggingface](https://huggingface.co/instruction-pretrain)]
 - ⭐ D-CPT Law: Domain-specific Continual Pre-Training Scaling Law for Large Language Models [[paper](https://arxiv.org/abs/2406.01375)]
