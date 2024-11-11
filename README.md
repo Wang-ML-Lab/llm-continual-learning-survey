@@ -8,7 +8,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 </p>
 
 ### Update History
-- **[10/2024] (⭐) newpaper: 09/2024 - 10/2024.**
+- **[10/2024] (⭐) new papers: 09/2024 - 10/2024.**
 - **[09/2024] (🔥) new papers: 07/2024 - 09/2024.**
 - [07/2024] new papers: 06/2024 - 07/2024.
 - [07/2024] the [updated version of the paper](https://arxiv.org/abs/2404.16789) has been released on arXiv.
