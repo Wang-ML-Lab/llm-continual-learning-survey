@@ -8,10 +8,11 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 </p>
 
 ### Update History
-- **[01/2025] (🔥) new papers: 01/2025.**
-- **[12/2024] (⭐) new papers: 12/2024.**
-- **[11/2024] new papers: 11/2024.**
-- **[11/2024] we have an [updated version](https://arxiv.org/abs/2404.16789), which is concise and free of broken links.**
+- **[02/2025] ⭐ new papers: 02/2025.**
+- **[01/2025] 🔥 new papers: 01/2025.**
+- [12/2024] new papers: 12/2024.
+- [11/2024] new papers: 11/2024.
+- [11/2024] we have an [updated version](https://arxiv.org/abs/2404.16789), which is concise and free of broken links.
 - [10/2024] new papers: 10/2024.
 - [09/2024] new papers: 07/2024 - 09/2024.
 - [07/2024] new papers: 06/2024 - 07/2024.
@@ -51,8 +52,11 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 
 ## Continual Pre-Training of LLMs (CPT)
+- ⭐ Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models? [[paper](https://arxiv.org/abs/2502.11895)]
+- ⭐ LongReD: Mitigating Short-Text Degradation of Long-Context Large Language Models via Restoration Distillation [[paper](https://arxiv.org/abs/2502.07365)][[code](https://github.com/RUCAIBox/LongReD)]
+- ⭐ FIRE: Flexible Integration of Data Quality Ratings for Effective Pre-Training [[paper](https://arxiv.org/abs/2502.00761)]
 - 🔥 Control LLM: Controlled Evolution for Intelligence Retention in LLM [[paper](https://arxiv.org/abs/2501.10979)][[code](https://github.com/linkedin/ControlLLM)][[huggingface](https://huggingface.co/ControlLLM)]
-- ⭐ TiC-LM: A Multi-Year Benchmark for Continual Pretraining of Language Models [[paper](https://openreview.net/forum?id=PpSDVE5rAy)]
+- TiC-LM: A Multi-Year Benchmark for Continual Pretraining of Language Models [[paper](https://openreview.net/forum?id=PpSDVE5rAy)]
 - Gradient Localization Improves Lifelong Pretraining of Language Models [[paper](https://arxiv.org/abs/2411.04448)]
 - Balancing Continuous Pre-Training and Instruction Fine-Tuning: Optimizing Instruction-Following in LLMs [[paper](https://arxiv.org/abs/2410.10739)]
 - A Learning Rate Path Switching Training Paradigm for Version Updates of Large Language Models [[paper](https://arxiv.org/abs/2410.04103)]
@@ -92,7 +96,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 ## Domain-Adaptive Pre-Training of LLMs (DAP)
 ### For General Domains
-- ⭐ Breaking the Stage Barrier: A Novel Single-Stage Approach to Long Context Extension for Large Language Models [[paper](https://arxiv.org/abs/2412.07171)]
+- Breaking the Stage Barrier: A Novel Single-Stage Approach to Long Context Extension for Large Language Models [[paper](https://arxiv.org/abs/2412.07171)]
 - DoPAMine: Domain-specific Pre-training Adaptation from seed-guided data Mining [[paper](https://arxiv.org/abs/2410.00260)]
 - Amuro & Char: Analyzing the Relationship between Pre-Training and Fine-Tuning of Large Language Models [[paper](https://arxiv.org/abs/2408.06663)]
 - CMR Scaling Law: Predicting Critical Mixture Ratios for Continual Pre-training of Language Models [[paper](https://arxiv.org/abs/2407.17467)]
@@ -121,7 +125,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 ### Financial Domain
 - 🔥 Demystifying Domain-adaptive Post-training for Financial LLMs [[paper](https://arxiv.org/abs/2501.04961)][[code](https://github.com/SalesforceAIResearch/FinDap)]
-- ⭐ Baichuan4-Finance Technical Report [[paper](https://arxiv.org/abs/2412.15270)]
+- Baichuan4-Finance Technical Report [[paper](https://arxiv.org/abs/2412.15270)]
 - The Construction of Instruction-tuned LLMs for Finance without Instruction Data Using Continual Pretraining and Model Merging [[paper](https://arxiv.org/abs/2409.19854)][[huggingface](https://huggingface.co/pfnet/nekomata-14b-pfn-qfin-inst-merge)]
 - Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications [[paper](https://arxiv.org/abs/2408.11878)]
 - Domain Adaptation of Llama3-70B-Instruct through Continual Pre-Training and Model Merging: A Comprehensive Evaluation [[paper](https://arxiv.org/abs/2406.14971)][[huggingface](https://huggingface.co/arcee-ai/Llama-3-SEC-Base)]
@@ -156,9 +160,9 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - Code Llama: Open Foundation Models for Code [[paper](https://arxiv.org/abs/2308.12950)][[code]( https://github.com/facebookresearch/codellama)]
 
 ### Language Domain
-- ⭐ Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation on Nepali [[paper](https://arxiv.org/abs/2412.13860)][[code](github.com/sharad461/DAPT-Nepali)]
-- ⭐ Efficient Continual Pre-training of LLMs for Low-resource Languages [[paper](https://arxiv.org/abs/2412.10244)]
-- ⭐ Marco-LLM: Bridging Languages via Massive Multilingual Training for Cross-Lingual Enhancement [[paper](https://arxiv.org/abs/2412.04003)]
+- Domain-adaptative Continual Learning for Low-resource Tasks: Evaluation on Nepali [[paper](https://arxiv.org/abs/2412.13860)][[code](github.com/sharad461/DAPT-Nepali)]
+- Efficient Continual Pre-training of LLMs for Low-resource Languages [[paper](https://arxiv.org/abs/2412.10244)]
+- Marco-LLM: Bridging Languages via Massive Multilingual Training for Cross-Lingual Enhancement [[paper](https://arxiv.org/abs/2412.04003)]
 - Velocitune: A Velocity-based Dynamic Domain Reweighting Method for Continual Pre-training [[paper](https://arxiv.org/abs/2411.17799)]
 - Code-Switching Curriculum Learning for Multilingual Transfer in LLMs [[paper](https://arxiv.org/abs/2411.02460)]
 - RedWhale: An Adapted Korean LLM Through Efficient Continual Pretraining [[paper](https://arxiv.org/abs/2408.11294)]
@@ -174,8 +178,8 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 
 ### Other Domains
 - 🔥 Domain Adaptation of Foundation LLMs for e-Commerce [[paper](https://arxiv.org/abs/2501.09706)]
-- ⭐ Adapting Large Language Models to Log Analysis with Interpretable Domain Knowledge [[paper](https://arxiv.org/abs/2412.01377)]
-- ⭐ CPRM: A LLM-based Continual Pre-training Framework for Relevance Modeling in Commercial Search [[paper](https://arxiv.org/abs/2412.01269)]
+- Adapting Large Language Models to Log Analysis with Interpretable Domain Knowledge [[paper](https://arxiv.org/abs/2412.01377)]
+- CPRM: A LLM-based Continual Pre-training Framework for Relevance Modeling in Commercial Search [[paper](https://arxiv.org/abs/2412.01269)]
 - LLaMA Pro: Progressive LLaMA with Block Expansion [[paper](https://arxiv.org/abs/2401.02415)][[code](https://github.com/TencentARC/LLaMA-Pro)][[huggingface](https://huggingface.co/TencentARC/LLaMA-Pro-8B)]
 - ECONET: Effective Continual Pretraining of Language Models for Event Temporal Reasoning [[paper](https://arxiv.org/abs/2012.15283)][[code](https://github.com/PlusLabNLP/ECONET)]
 - Pre-training Text-to-Text Transformers for Concept-centric Common Sense [[paper](https://arxiv.org/abs/2011.07956)][[code](https://github.com/INK-USC/CALM/)][[project](https://inklab.usc.edu/calm-project/)]
@@ -185,7 +189,10 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 ## Continual Fine-Tuning of LLMs (CFT)
 
 ### General Continual Fine-Tuning
-- ⭐ Exploring Continual Fine-Tuning for Enhancing Language Ability in Large Language Model [[paper](https://openreview.net/forum?id=lUl3Iz4k64)]
+- ⭐ PCL: Prompt-based Continual Learning for User Modeling in Recommender Systems [[paper](https://arxiv.org/abs/2502.19628)]
+- ⭐ Optimal Brain Iterative Merging: Mitigating Interference in LLM Merging [[paper](https://arxiv.org/abs/2502.12217)]
+- ⭐ SPARC: Subspace-Aware Prompt Adaptation for Robust Continual Learning in LLMs [[paper](https://arxiv.org/abs/2502.02909)]
+- Exploring Continual Fine-Tuning for Enhancing Language Ability in Large Language Model [[paper](https://openreview.net/forum?id=lUl3Iz4k64)]
 - Preserving Generalization of Language models in Few-shot Continual Relation Extraction [[paper](https://arxiv.org/abs/2410.00334)]
 - MoFO: Momentum-Filtered Optimizer for Mitigating Forgetting in LLM Fine-Tuning [[paper](https://arxiv.org/abs/2407.20999)]
 - Learn it or Leave it: Module Composition and Pruning for Continual Learning [[paper](https://arxiv.org/abs/2406.18708)]
@@ -215,6 +222,8 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions [[paper](https://arxiv.org/pdf/2403.11435.pdf)]
 
 ### Continual Model Refinement (CMR)
+- ⭐ Norm Growth and Stability Challenges in Localized Sequential Knowledge Editing [[paper](https://arxiv.org/abs/2502.19416)]
+- ⭐ Reinforced Lifelong Editing for Language Models [[paper](https://arxiv.org/abs/2502.05759)]
 - Continual Memorization of Factoids in Large Language Models [[paper](https://arxiv.org/abs/2411.07175)][[code](https://github.com/princeton-nlp/continual-factoid-memorization)]
 - UniAdapt: A Universal Adapter for Knowledge Calibration [[paper](https://arxiv.org/abs/2410.00454)]
 - LEMoE: Advanced Mixture of Experts Adaptor for Lifelong Model Editing of Large Language Models [[paper](https://arxiv.org/abs/2406.20030)]
@@ -239,9 +248,12 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - Mitigating the Alignment Tax of RLHF [[paper](https://arxiv.org/abs/2309.06256)]
 
 ### Continual Multimodal LLMs (CMLLMs)
-- ⭐ A Practitioner's Guide to Continual Multimodal Pretraining [[paper](https://openreview.net/forum?id=gkyosluSbR)]
-- ⭐ ModelGrow: Continual Text-to-Video Pre-training with Model Expansion and Language Understanding Enhancement [[paper](https://arxiv.org/abs/2412.18966)][[project](https://modelgrow.github.io/)]
-- ⭐ Adaptive Rank, Reduced Forgetting: Knowledge Retention in Continual Learning Vision-Language Models with Dynamic Rank-Selective LoRA [[paper](https://arxiv.org/abs/2412.01004)]
+- ⭐ Modular Prompt Learning Improves Vision-Language Models [[paper](https://arxiv.org/abs/2502.14125)]
+- ⭐ Efficient Few-Shot Continual Learning in Vision-Language Models [[paper](https://arxiv.org/abs/2502.04098)]
+- ⭐ DesCLIP: Robust Continual Adaptation via General Attribute Descriptions for Pretrained Vision-Language Models [[paper](https://arxiv.org/abs/2502.00618)]
+- A Practitioner's Guide to Continual Multimodal Pretraining [[paper](https://openreview.net/forum?id=gkyosluSbR)]
+- ModelGrow: Continual Text-to-Video Pre-training with Model Expansion and Language Understanding Enhancement [[paper](https://arxiv.org/abs/2412.18966)][[project](https://modelgrow.github.io/)]
+- Adaptive Rank, Reduced Forgetting: Knowledge Retention in Continual Learning Vision-Language Models with Dynamic Rank-Selective LoRA [[paper](https://arxiv.org/abs/2412.01004)]
 - Multi-Stage Knowledge Integration of Vision-Language Models for Continual Learning [[paper](https://arxiv.org/abs/2411.06764)]
 - LLMs Can Evolve Continually on Modality for X-Modal Reasoning [[paper](https://arxiv.org/abs/2410.20178)][[code](https://github.com/JiazuoYu/PathWeave)]
 - Improving Multimodal Large Language Models Using Continual Learning [[paper](https://arxiv.org/abs/2410.19925)]
@@ -264,6 +276,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - Reconstruct before Query: Continual Missing Modality Learning with Decomposed Prompt Collaboration [[paper](https://arxiv.org/abs/2403.11373)] [[code](https://github.com/Tree-Shu-Zhao/RebQ.pytorch)]
 
 ## Continual LLMs Miscs
+- ⭐ How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on Continual Pre-Training [[paper](https://arxiv.org/abs/2502.11196)][[code](https://github.com/zjunlp/DynamicKnowledgeCircuits)]
 - Are LLMs Prescient? A Continuous Evaluation using Daily News as the Oracle [[paper](https://arxiv.org/abs/2411.08324)][[project](https://agenticlearning.ai/daily-oracle/)][[data](https://drive.google.com/drive/folders/1zMmV5RRxBIcwavxhLvAz-0ZlkVeQPQRG)]
 - Scalable Data Ablation Approximations for Language Models through Modular Training and Merging [[paper](https://arxiv.org/abs/2410.15661)]
 - How Do Large Language Models Acquire Factual Knowledge During Pretraining? [[paper](https://arxiv.org/abs/2406.11813)]
