@@ -1,5 +1,5 @@
 # Continual Learning of Large Language Models: A Comprehensive Survey
-This is an updating survey for Continual Learning of Large Language Models (CL-LLMs), a constantly updated and extended version for the manuscript "[Continual Learning of Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2404.16789)".
+This is an updating survey for Continual Learning of Large Language Models (CL-LLMs), a constantly updated and extended version for the manuscript "[Continual Learning of Large Language Models: A Comprehensive Survey](https://arxiv.org/abs/2404.16789)", published in [ACM Computing Surveys 2025](https://dl.acm.org/doi/10.1145/3735633).
 
 ***Welcome to contribute to this survey by submitting a pull request or opening an issue!***
 
@@ -8,6 +8,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 </p>
 
 ### Update History
+- **[05/2025] Our paper has been accpeted to [CSUR](https://dl.acm.org/doi/10.1145/3735633)!**
 - **[03/2025] 🔥 new papers: 03/2025.**
 - **[02/2025] ⭐ new papers: 02/2025.**
 - [01/2025] new papers: 01/2025.
