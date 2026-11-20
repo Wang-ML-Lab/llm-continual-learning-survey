@@ -285,6 +285,7 @@ This is an updating survey for Continual Learning of Large Language Models (CL-L
 - Reconstruct before Query: Continual Missing Modality Learning with Decomposed Prompt Collaboration [[paper](https://arxiv.org/abs/2403.11373)] [[code](https://github.com/Tree-Shu-Zhao/RebQ.pytorch)]
 
 ## Continual LLMs Miscs
+- Continual-ARC: Measuring Skill Acquisition over a Working Lifetime [[paper](https://arxiv.org/abs/2611.14505)][[code](https://github.com/unifyai/continual-arc)][[project](https://continual-arc.unify.ai)]
 - ⭐ How Do LLMs Acquire New Knowledge? A Knowledge Circuits Perspective on Continual Pre-Training [[paper](https://arxiv.org/abs/2502.11196)][[code](https://github.com/zjunlp/DynamicKnowledgeCircuits)]
 - Are LLMs Prescient? A Continuous Evaluation using Daily News as the Oracle [[paper](https://arxiv.org/abs/2411.08324)][[project](https://agenticlearning.ai/daily-oracle/)][[data](https://drive.google.com/drive/folders/1zMmV5RRxBIcwavxhLvAz-0ZlkVeQPQRG)]
 - Scalable Data Ablation Approximations for Language Models through Modular Training and Merging [[paper](https://arxiv.org/abs/2410.15661)]
